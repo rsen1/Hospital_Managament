@@ -1,0 +1,81 @@
+
+{% load static %}
+
+{% include 'base.html' %}
+{% include 'navigation.html' %} 
+
+{% block content %}
+    
+ <div class="hero_bg_box">
+    <img src="static/Images/hero-bg.png" alt="">
+
+<h1 class="text-center" style="margin-top:50px;">About Us!</h1>
+<div class="container" style="margin:100px 20px;">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="strong" style="margin-left:80px"> Who We Are <br> What We Do </h1>
+                <p class="lead" style="margin-left:80px  ;"> This is the world's leading portal for <br>easy and quick.</p>
+        </div>
+        <div class="col-md-5">
+                <p style="margin-left:10px> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in odio suscipit,
+                        sodales quam eu, faucibus purus. Nullam pulvinar nec felis non egestas. 
+                        Donec dignissim lorem ligula, vitae dignissim quam feugiat id.</p>
+        </div>
+
+        <div class="row">
+            <div class="site-heading text-center">
+                <h3>Our Team</h3>
+                <p>  In iaculis, tortor vitae interdum venenatis, nisl metus convallis leo
+                     ac pretium feugiat.Morbi mollis ante in magna aliquet rutrum elementum
+                      tortor iaculis.</p>
+                <div class="border"></div>
+                </div>
+            </div>
+        </div>
+</div>
+</div> 
+{% block body %}
+
+    <img src="static/Images/about-img.jpg" alt="">
+{% endblock body %}
+<div class="hero_area">
+
+    <div class="hero_bg_box">
+      <img src="static/Images/hero-bg.png" alt="">
+    </div>
+</div>
+<section class="about_section layout_margin-bottom">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            
+            <img src="static/Images/about-img.jpg" alt="">
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About <span>Us</span>
+              </h2>
+            </div>
+            <p>
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+              the middle of text. All
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+{% endblock content %}
+{% include 'footer.html' %}
+    
